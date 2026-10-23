@@ -42,7 +42,7 @@ python kaggle/build_kaggle.py --reuse-results   # Kaggle dataset and notebook fo
 - `cmibench/experiments.py`: coverage, design effect, CV against LB.
 
 Kaggle notebook: https://www.kaggle.com/code/locdunhat/confidence-intervals-for-clustered-eval-sets
-Kaggle dataset: https://www.kaggle.com/datasets/locdunhat/clustered-metric-interval-simulations
+Kaggle dataset: https://www.kaggle.com/datasets/locdunhat/clustered-eval-interval-simulations
 
 ## License
 

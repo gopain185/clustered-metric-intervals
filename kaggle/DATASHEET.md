@@ -1,4 +1,4 @@
-# Clustered Metric Interval Simulations: datasheet
+# Clustered Eval Interval Simulations: datasheet
 
 Simulated evaluation sets for a classifier with 18 classes, in which samples come in clusters (think prompts
 answered by several authors), with the true balanced accuracy known. They come with the result tables of a benchmark

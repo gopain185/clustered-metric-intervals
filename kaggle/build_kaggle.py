@@ -23,7 +23,7 @@ from cmibench import experiments as ex  # noqa: E402
 from cmibench.sim import Design, sample, truth  # noqa: E402
 
 OUT = ROOT / "kaggle"
-DATASET_ID = "locdunhat/clustered-metric-interval-simulations"
+DATASET_ID = "locdunhat/clustered-eval-interval-simulations"
 NOTEBOOK_ID = "locdunhat/confidence-intervals-for-clustered-eval-sets"
 TITLE = "Confidence Intervals for Clustered Eval Sets"
 
@@ -51,7 +51,7 @@ def build_dataset(public: bool, rerun: bool = True) -> Path:
     datasheet = (OUT / "DATASHEET.md").read_text(encoding="utf-8")
     (out / "DATASHEET.md").write_text(datasheet, encoding="utf-8")
     (out / "dataset-metadata.json").write_text(json.dumps({
-        "title": "Clustered Metric Interval Simulations",
+        "title": "Clustered Eval Interval Simulations",
         "id": DATASET_ID,
         "subtitle": "Eval sets with prompt clusters and a known balanced accuracy",
         "description": datasheet,
