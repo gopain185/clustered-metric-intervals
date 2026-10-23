@@ -1,0 +1,10 @@
+[project]
+name = "clustered-metric-intervals"
+version = "0.1.0"
+description = "Known-truth simulation of confidence intervals for balanced accuracy on clustered evaluation sets"
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "pandas"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
